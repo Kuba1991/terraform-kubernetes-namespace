@@ -5,5 +5,8 @@
 ```
 module "namespace" {
     source = "Kuba1991/namespace/kubernetes"
+    name = test
+    label = test
+    annotation = test
 }
 ```
